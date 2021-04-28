@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GrapeCity.ActiveReports.Core.Document" Version="2.0.0" />
+    <PackageReference Include="GrapeCity.ActiveReports.Export.Pdf" Version="15.1.1" />
+    <PackageReference Include="GrapeCity.ActiveReports.Export.Word" Version="15.1.1" />
+  </ItemGroup>
+
+
+</Project>

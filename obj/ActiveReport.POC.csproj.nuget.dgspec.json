@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\eslam.heikal\\Desktop\\ActiveReport.POC\\ActiveReport.POC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\eslam.heikal\\Desktop\\ActiveReport.POC\\ActiveReport.POC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eslam.heikal\\Desktop\\ActiveReport.POC\\ActiveReport.POC.csproj",
+        "projectName": "ActiveReport.POC",
+        "projectPath": "C:\\Users\\eslam.heikal\\Desktop\\ActiveReport.POC\\ActiveReport.POC.csproj",
+        "packagesPath": "C:\\Users\\eslam.heikal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eslam.heikal\\Desktop\\ActiveReport.POC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eslam.heikal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/u7lnAYTIieTUNDLH7tua6gx8aSBIBpESV96HMVgdQyfq9gwUwy/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "GrapeCity.ActiveReports.Core.Document": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "GrapeCity.ActiveReports.Export.Pdf": {
+              "target": "Package",
+              "version": "[15.1.1, )"
+            },
+            "GrapeCity.ActiveReports.Export.Word": {
+              "target": "Package",
+              "version": "[15.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
